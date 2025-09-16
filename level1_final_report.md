@@ -158,6 +158,134 @@ Observed the output using probes.
 [![555-02.jpg](https://i.postimg.cc/KjdmHF94/555-02.jpg)](https://postimg.cc/4HQCKCRT)
 ---
 
+## Task 14: Karnaugh Maps and Deriving the logic circuit
+
+I worked on a simple burglar alarm system using K-maps and logic gates. By analyzing different door and key conditions, I simplified the logic with a K-map and built a circuit where a buzzer turns on for certain cases. It helped me understand how logic gates work in real-life setups .
+
+[![Screenshot-2025-0916-210735.jpg](https://i.postimg.cc/Y9PX3tXF/Screenshot-2025-0916-210735.jpg)](https://postimg.cc/8JhBkggk)
+
 ## Task 15: Active Participation
 
 [![certi.jpg](https://i.postimg.cc/T1v3wCRn/certi.jpg)](https://postimg.cc/k6wmYNR5)
+---
+
+## Task 16: Datasheets report writing
+
+echnical Report: L293D Motor Driver IC
+1. Introduction
+
+The L293D is a quadruple high-current half-H driver IC designed to control bidirectional drive currents of up to 600 mA per channel at voltages ranging from 4.5 V to 36 V. It is widely used in robotics and automation systems to drive inductive loads such as relays, solenoids, DC motors, and bipolar stepping motors. 
+Texas Instruments
+
+2. IC Components and Internal Structure
+
+The L293D integrates four half-H drivers, each capable of driving a motor in both directions. Each output is a complete totem-pole drive circuit, featuring a Darlington transistor sink and a pseudo-Darlington source. This configuration allows for efficient current handling and bidirectional control. 
+Texas Instruments
+
+3. H-Bridge Configuration
+
+The L293D utilizes an H-bridge configuration to control the direction of current flow through the motor. An H-bridge consists of four switches arranged in a bridge-like structure, enabling the polarity of the voltage applied to the load (motor) to be reversed. This allows the motor to rotate in both clockwise and counterclockwise directions. 
+Wikipedia
+
+4. Pulse Width Modulation (PWM) for Speed Control
+
+The L293D supports speed control through Pulse Width Modulation (PWM). By applying a PWM signal to the enable pins (1,2EN and 3,4EN), the effective voltage supplied to the motor is varied, thereby controlling its speed. A higher duty cycle increases the average voltage, resulting in higher motor speed, while a lower duty cycle decreases the speed. 
+ProtoSupplies
+
+5. Applications
+
+Robotics: Used to drive wheels and actuators.
+
+Automation Systems: Controls motors in conveyor belts and automated machinery.
+
+Consumer Electronics: Drives motors in devices like fans and toys.
+
+6. Conclusion
+
+The L293D motor driver IC is a versatile and reliable component for controlling DC motors and stepper motors in various applications. Its integrated H-bridge configuration and support for PWM speed control make it an essential part of many electronic systems.
+
+Technical Report: MQ135 Gas Sensor
+1. Introduction
+
+The MQ135 is a semiconductor gas sensor designed to detect a wide range of gases, including ammonia (NH₃), benzene series, alcohol, and smoke. It is widely used in air quality monitoring systems due to its sensitivity and cost-effectiveness. 
+Winsen Sensors
+
+2. Calibration for Different Gases
+
+The sensor's resistance varies with the concentration of gases. Calibration involves determining the sensor's resistance in clean air (Ro) and at known concentrations of target gases (Rs). The ratio Rs/Ro is used to estimate the gas concentration. For example, approximate Rs/Ro values at different concentrations are:
+
+Ammonia (NH₃):
+
+50 ppm: Rs/Ro ≈ 3.6
+
+100 ppm: Rs/Ro ≈ 2.2
+
+500 ppm: Rs/Ro ≈ 0.6
+
+Carbon Dioxide (CO₂):
+
+50 ppm: Rs/Ro ≈ 4.0
+
+100 ppm: Rs/Ro ≈ 2.5
+
+500 ppm: Rs/Ro ≈ 0.7
+
+Benzene:
+
+50 ppm: Rs/Ro ≈ 5.0
+
+100 ppm: Rs/Ro ≈ 3.0
+
+500 ppm: Rs/Ro ≈ 1.0
+
+hub.uvcemarvel.in
+
+3. Freundlich Absorption Theorem
+
+The sensor's response to gas concentration follows the Freundlich adsorption isotherm, expressed as:
+
+𝑥
+/
+𝑚
+=
+𝑘
+𝑃
+1
+/
+𝑛
+x/m=kP
+1/n
+
+Where:
+
+x/m: Amount of gas adsorbed per unit mass of adsorbent
+
+P: Partial pressure of the gas
+
+k: Adsorption capacity constant
+
+n: Empirical constant (n > 1)
+
+This equation models the adsorption behavior of gases on the sensor's surface, aiding in understanding and predicting sensor responses. 
+hub.uvcemarvel.in
+
+4. Applications
+
+Air Quality Monitoring: Detects pollutants in indoor and outdoor environments.
+
+Industrial Safety: Monitors hazardous gas levels in factories.
+
+Consumer Electronics: Integrated into devices like smart air purifiers.
+
+5. Conclusion
+
+The MQ135 gas sensor is a valuable tool for detecting a variety of gases. Understanding its calibration and the underlying adsorption principles enhances its application in environmental monitoring and safety systems.
+---
+
+## Task 19: Make a web app
+
+I developed a simple web-based Stone-Paper-Scissor game using HTML, CSS, and JavaScript. The game allows the user to choose between stone, paper, or scissor and plays against the computer, which makes a random choice. The result is displayed immediately, showing whether the user wins, loses, or draws. The interface is user-friendly, responsive, and visually appealing, providing instant feedback. This project helped me understand DOM manipulation, event handling, and basic game logic implementation. It is a fun interactive project that demonstrates core web development concepts and improves user interaction skills.
+
+[![IMG-20250914-WA0018.jpg](https://i.postimg.cc/j2HR03nM/IMG-20250914-WA0018.jpg)](https://postimg.cc/sGgk5ccW)
+
+[![IMG-20250914-WA0016.jpg](https://i.postimg.cc/mrCXSvvp/IMG-20250914-WA0016.jpg)](https://postimg.cc/wtxQqGTD)
