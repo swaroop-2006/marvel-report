@@ -286,6 +286,4 @@ The MQ135 gas sensor is a valuable tool for detecting a variety of gases. Unders
 
 I developed a simple web-based Stone-Paper-Scissor game using HTML, CSS, and JavaScript. The game allows the user to choose between stone, paper, or scissor and plays against the computer, which makes a random choice. The result is displayed immediately, showing whether the user wins, loses, or draws. The interface is user-friendly, responsive, and visually appealing, providing instant feedback. This project helped me understand DOM manipulation, event handling, and basic game logic implementation. It is a fun interactive project that demonstrates core web development concepts and improves user interaction skills.
 
-[![IMG-20250914-WA0017.jpg](https://i.postimg.cc/nLFjd7g8/IMG-20250914-WA0017.jpg)](https://postimg.cc/gx72jwG4)
-
 [![IMG-20250914-WA0016.jpg](https://i.postimg.cc/mrCXSvvp/IMG-20250914-WA0016.jpg)](https://postimg.cc/wtxQqGTD)
